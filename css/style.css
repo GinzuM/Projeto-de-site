@@ -74,7 +74,7 @@ header h1 {
 header p{
 			margin-bottom: 2em;
 }
-Topico1 {
+#Topico1 {
 		/* seção 2*/
 		display: flex;
 		flex-direction: column;
@@ -84,18 +84,18 @@ Topico1 {
 		background-color: #191970; /* cor do fundo da seção 2 */
 		color: #ffffff; /* cor do texto na seção 2*/
 }
-Topico1 h2 {
+#Topico1 h2 {
 			color: #ffffff; /* cor do titulo da seção 2*/
 }
-Topico1 p{
+#Topico1 p{
 			margin-bottom: 2.5em;
 			max-width: 1000px;
 }
-Topico1 .botao {
+#Topico1 .botao {
 				background-color: #f1f1f1; /* cor do botão da seção 2 */
 				color: #1c1c1c; /* cor do texto dentro do botao na seção 2 */
 }
-Topico2 {
+#Topico2 {
 			/* seção 3*/
 			display: flex;
 			flex-direction: column;
@@ -106,10 +106,10 @@ Topico2 {
 			background-position: center;
 			background-color: #191970; /* cor do fundo da imagem 2 na seção 3*/
 }
-Topico2 .botao{
+#Topico2 .botao{
 					align-items: center;	
 }
-Topico3 {
+#Topico3 {
 			/* seção 4 */
 			display: flex;
 			flex-direction: column;
@@ -118,7 +118,7 @@ Topico3 {
 			padding: 20px;
 			background-color: #ffffff /* cor do fundo da seção 4 */
 }
-Topico3 h2 {
+#Topico3 h2 {
 				color: #000000; /* cor do titulo da seção 4 */
 }
 footer {
@@ -154,38 +154,38 @@ footer a {
 			justify-content: center;
 	}
 	/* Sobre*//* 2º seção */
-	Topico1 {
+	#Topico1 {
 			height: 250px;
 			height: 30vh;
 			justify-content: center;
 			min-height: 250px;
 	}
 	/* Serviços/Anuncios *//* 3º seção */
-	Topico2 {
+	#Topico2 {
 				flex-direction: column;
 				flex-wrap: wrap;
 				align-items: center;
 				max-width: 2000px;
 				margin: 0 auto;
 	}
-	Topico2 h2 {
+	#Topico2 h2 {
 					text-align: center;
 					width: 100%;
 	}
-	Topico2 div {
+	#Topico2 div {
 					flex-grow: 1;
 					flex-basis: 150px;
 					padding: 0 10px;
 	}
 	/* Contato *//* 4º seção */
-	Topico3 {
+	#Topico3 {
 				flex-direction: row;
 				flex-wrap: wrap;
 				justify-content: space-around;
 				max-width: 2000px;
 				margin: 0 auto;
 	}
-	Topico3 h2, Topico3 p {
+	#Topico3 h2, #Topico3 p {
 								width: 100%;
 	}
 }
