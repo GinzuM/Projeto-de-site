@@ -1,0 +1,192 @@
+/* Inicio do sonho*/
+body{
+		/* Textos padrões do site */
+		font-family: Nunito, sans-serif;
+		color: #1c1c1c; /* cor dos textos padrões */
+}
+h1, h2, h3{
+			font-family: Asap, sans-serif;
+			color: #000000; /* cor padrão dos titulos das seções */
+}
+.botao {
+		color: #ffffff;
+		text-decoration: none;
+		padding: 10px 30px;
+		background-color: #191970; /* cor padrão do fundo dos botoes */
+		font-size: .9em;
+		border-radius: 3px;
+}
+/* Navegação */
+nav{
+		/* barra de navegação*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #191970; /* cor do fundo da barra de navegação */
+}
+nav > a {
+			/* titulo da pagina*/
+			text-decoration: none;
+			color: #ffffff;
+			font-weight: 800;
+			font-size: 40px;
+			font-family: Yellowtail, serif;
+}
+nav ul{
+		/* espaço destinado aos botoes de navegação */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		list-style: none;
+		padding: 0;
+		width: 100%;
+}
+nav ul li{
+			/* separação dos botoes de navegação */
+			text-align: center;
+			width: 100%;
+}
+nav ul li a {
+				/* botoes das seções no topo */
+				display: inline-block;
+				padding: 10px 0;
+				width: 100%;
+				text-decoration: none;
+				color: #ffffff;
+				font-size: 30px;
+}
+header {
+		/* 1º seção */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("../img/imagem1.png");/* imagem 1 de fundo  */
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #191970; /* cor do fundo da imagem */
+		color: #ffffff; 
+		text-align: center;
+		padding: 125px;
+}
+header h1 {
+			color: #ffffff;/* cor do titulo da 1 seção*/
+}
+header p{
+			margin-bottom: 2em;
+}
+#sobre {
+		/* seção 2*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970; /* cor do fundo da seção 2 */
+		color: #ffffff; /* cor do texto na seção 2*/
+}
+#sobre h2 {
+			color: #ffffff; /* cor do titulo da seção 2*/
+}
+#sobre p{
+			margin-bottom: 2.5em;
+			max-width: 1000px;
+}
+#sobre .botao {
+				background-color: #f1f1f1; /* cor do botão da seção 2 */
+				color: #1c1c1c; /* cor do texto dentro do botao na seção 2 */
+}
+#anuncios {
+			/* seção 3*/
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 125px;
+			background-image: url("../img/imagem2.png");/* imagem 2 na seção 3 */
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: #191970; /* cor do fundo da imagem 2 na seção 3*/
+}
+#anuncios .botao{
+					align-items: center;	
+}
+#contato {
+			/* seção 4 */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			padding: 20px;
+			background-color: #ffffff /* cor do fundo da seção 4 */
+}
+#contato h2 {
+				color: #000000; /* cor do titulo da seção 4 */
+}
+footer {
+		/* rodapé */
+		text-align: center;
+		padding: 10px;
+		background-color: #191970; /* cor do fundo do rodapé */
+		color: #ffffff; /* cor do texto do rodapé */
+}
+footer a {
+			/* botao para voltar para cima*/
+			text-decoration: none;
+			color: #00ffff; /* cor do botao de voltar para cima*/
+}
+@media screen and (min-width: 768px) {
+	/* modificações para tela em tamanho diferente*/
+	/* NAV */
+	nav {
+			/* barra de navegação*/
+			flex-direction: row;
+			justify-content: space-around;
+	}
+	nav ul {
+			/* espaço destinado aos botoes de navegação */
+			flex-direction: row;
+			width: 70%;
+	}
+	/* cabeçalho *//* 1º seção */
+	header {
+			/* 1º seção */
+			height: 600px;
+			height: 60vh;
+			justify-content: center;
+	}
+	/* Sobre*//* 2º seção */
+	#sobre {
+			height: 250px;
+			height: 30vh;
+			justify-content: center;
+			min-height: 250px;
+	}
+	/* Serviços/Anuncios *//* 3º seção */
+	#anuncios {
+				flex-direction: column;
+				flex-wrap: wrap;
+				align-items: center;
+				max-width: 2000px;
+				margin: 0 auto;
+	}
+	#anuncios h2 {
+					text-align: center;
+					width: 100%;
+	}
+	#anuncios div {
+					flex-grow: 1;
+					flex-basis: 150px;
+					padding: 0 10px;
+	}
+	/* Contato *//* 4º seção */
+	#contato {
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				max-width: 2000px;
+				margin: 0 auto;
+	}
+	#contato h2, #contato p {
+								width: 100%;
+	}
+}
+/* Acabou */

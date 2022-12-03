@@ -1,0 +1,22 @@
+para dar um git siga esses passos
+> Criar um repositório no GitHub
+> Estar dentro da pasta que você quer
+> Digitar >>rd .git /S/Q
+> Digitar >>git init
+> Digitar >>git add .
+> Digitar >>git commit -m "first commit"
+> Digitar >>git remote add origin "(link do seu repositório do GitHub)"
+> Digitar >>git push -u origin master
+
+Pronto agora seus arquivos já estão no Github
+
+
+
+Para atualiar basta fazer 
+> Digitar >>git add .
+> Digitar >>git commit -m "atualização do git"
+> Digitar >>git push -u origin master
+
+
+Pronto agora seus arquivos foram atualizados
+
